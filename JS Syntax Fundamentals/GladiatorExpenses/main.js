@@ -15,6 +15,7 @@ function expenses(lostFightsCount, helmetPrice, swordPrice, shieldPrice, armorPr
             swordCount++;
             swordBroken=true;
         } 
+        //if (i%6==0)
         if (helmetBroken && swordBroken) {
             shieldCount++;
             if (shieldCount % 2 === 0) {
